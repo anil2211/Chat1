@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/loginback"
+    tools:context="com.example.anil.chat.LoginActivity">
+
+    <!--  //for toolbar-->
+  <!--  <include layout="@layout/app_bar_layout"
+        android:id="@+id/login_page_toolbar">
+    </include>-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="48dp"
+                android:padding="16dp"
+                android:src="@mipmap/user" />
+
+
+
+            <EditText
+                android:id="@+id/login_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Enter Your E-mail"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textSize="22dp"
+                android:padding="20dp"/>
+
+            <EditText
+                android:id="@+id/login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="*******"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textSize="22dp"
+                android:padding="20dp"/>
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edtText2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:background="#c04ea0e7"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="Login"
+                android:textSize="20dp"
+                android:layout_marginLeft="50dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

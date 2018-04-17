@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_settings"
+        android:title="Main Menu"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/main_Account_settingBtn"
+                android:title="Account"
+                app:showAsAction="never">
+
+            </item>
+
+            <item
+                android:id="@+id/main_all_users_btn"
+                android:title="All Available User"
+                app:showAsAction="never">
+
+            </item>
+
+            <item
+                android:id="@+id/main_logoutBtn"
+                android:title="Logout"
+                app:showAsAction="never">
+
+            </item>
+        </menu>
+
+    </item>
+
+</menu>

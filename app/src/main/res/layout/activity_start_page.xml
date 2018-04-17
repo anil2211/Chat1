@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/back2"
+    tools:context="com.example.anil.chat.StartPageActivity">
+
+
+    <Button
+        android:id="@+id/already_button"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/need_button"
+        android:layout_marginBottom="220dp"
+        android:background="#de3939e7"
+        android:text="Already have account" />
+
+    <Button
+        android:id="@+id/need_button"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/already_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:background="#dee7398a"
+        android:text="New Account"
+        android:shadowRadius="24"/>
+
+</RelativeLayout>
